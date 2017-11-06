@@ -23,7 +23,7 @@ dependencies:
 ```crystal
 require "Gisc"
 
-imginfo = Gist::Checker.new "path/to/image.png"
+imginfo = Gisc::Checker.new "path/to/image.png"
 if imginfo.check "png"
   puts "this is a valid png"
   puts imginfo.signature
